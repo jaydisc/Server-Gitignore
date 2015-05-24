@@ -1,0 +1,9 @@
+## This is a .gitignore file for use with FileMaker Server, in its installation directory /Library/FileMaker Server
+## This was designed and tested with FileMaker Server v12 (up to 12.0.5)
+
+*.log
+/Data/
+/Documentation/
+/Examples/
+/Logs/
+
