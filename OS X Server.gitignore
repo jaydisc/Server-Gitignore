@@ -1,0 +1,51 @@
+# Databases and Caches
+
+/Alerts/alertData.db-shm
+/Alerts/alertData.db-wal
+/Caching/Data/
+/Calendar and Contacts/Data/Database.xpg/
+/Calendar and Contacts/Data/memberships_cache
+/Configuration/services.mobileconfig
+/Firewall/Firewall.db*
+/Mail/Data/mta/postscreen_cache.db
+/Mail/Data/mta/prng_exch
+/Mail/Data/scanner/amavis/.spamassassin/bayes_seen
+/Mail/Data/scanner/amavis/.spamassassin/bayes_toks
+/Mail/Data/scanner/amavis/db/
+/Mail/Data/scanner/clamav/db/
+/Messages/Data/sqlite/jabberd2.db
+/ProfileManager/Data/PostgreSQL/
+/ProfileManager/Data/backup/
+/Wiki/Database.xpg/
+
+# Too frequent
+/Caching/Config/Config.plist
+/Firewall/Anchors/
+/Setup/com.apple.serverd.plist
+
+# User Data
+
+/Calendar and Contacts/Data/Attachments/
+/Mail/Data/listserver/messages/
+/Mail/Data/mail/
+/Mail/Data/rules/
+/Mail/Data/scanner/virusmails
+/Mail/Data/spool/
+/Wiki/FileData/
+
+# Logs
+
+Logs/
+
+# Temporary
+
+tmp/
+pid/
+*.pid
+*.lock
+*.lock_file
+
+# Previous
+
+/Web/Config/apache2/sites-previous-unusable-*
+/Web/Config/apache2.previous/
