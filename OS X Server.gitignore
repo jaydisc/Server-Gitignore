@@ -1,11 +1,9 @@
 # Databases and Caches
-
 /Alerts/alertData.db-shm
 /Alerts/alertData.db-wal
 /Caching/Data/
 /Calendar and Contacts/Data/Database.xpg/
 /Calendar and Contacts/Data/memberships_cache
-/Configuration/services.mobileconfig
 /Firewall/Firewall.db*
 /Mail/Data/mta/postscreen_cache.db
 /Mail/Data/mta/prng_exch
@@ -18,13 +16,7 @@
 /ProfileManager/Data/backup/
 /Wiki/Database.xpg/
 
-# Too frequent
-/Caching/Config/Config.plist
-/Firewall/Anchors/
-/Setup/com.apple.serverd.plist
-
 # User Data
-
 /Calendar and Contacts/Data/Attachments/
 /Mail/Data/listserver/messages/
 /Mail/Data/mail/
@@ -33,12 +25,17 @@
 /Mail/Data/spool/
 /Wiki/FileData/
 
-# Logs
+# Not very important, and change too frequently
+/Caching/Config/Config.plist
+/Configuration/services.mobileconfig
+/Firewall/Anchors/
+/Setup/com.apple.serverd.plist
 
+
+# Logs
 Logs/
 
-# Temporary
-
+# Temporary files
 tmp/
 pid/
 *.pid
@@ -46,6 +43,6 @@ pid/
 *.lock_file
 
 # Previous
-
 /Web/Config/apache2/sites-previous-unusable-*
 /Web/Config/apache2.previous/
+*.bak
