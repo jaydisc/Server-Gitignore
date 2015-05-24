@@ -45,4 +45,5 @@ pid/
 # Previous
 /Web/Config/apache2/sites-previous-unusable-*
 /Web/Config/apache2.previous/
+/Wiki/Config.previous/
 *.bak
