@@ -11,20 +11,25 @@
 /Firewall/Firewall.db*
 /Mail/Data/mta/postscreen_cache.db
 /Mail/Data/mta/prng_exch
-/Mail/Data/scanner/amavis/.spamassassin/bayes_*
-/Mail/Data/scanner/amavis/db/
-/Mail/Data/scanner/clamav/db/
+/Mail/Data/scanner/
 /Messages/Data/sqlite/jabberd2.db
 /ProfileManager/Data/
+/ServerDocs/Database.xpg/
 /Wiki/Database.xpg/
 
 # User Data
 /Calendar and Contacts/Data/Attachments/
+/Mail/Data/amavisd/languages
+/Mail/Data/db/virtual_maps.json
+/Mail/Data/dovecot/
+/Mail/Data/gldb/
 /Mail/Data/listserver/messages/
 /Mail/Data/mail/
+/Mail/Data/mta/guid_device_maps.plist
 /Mail/Data/rules/
 /Mail/Data/scanner/virusmails
 /Mail/Data/spool/
+/ServerDocs/Personal Folders.localized/
 /Wiki/FileData/
 
 # Not very important, and change too frequently
@@ -33,6 +38,7 @@
 /Events/MonitorSettings.plist
 /Firewall/Anchors/
 /Setup/com.apple.serverd.plist
+/Software Update/Status/.mode_changed
 
 # Logs
 Logs/
@@ -43,6 +49,7 @@ pid/
 *.pid
 *.lock
 *.lock_file
+/ProfileManager/Config/ruby-uuid
 /ProfileManager/Config/var/devicemgrd
 /ProfileManager/Config/var/dmrunnerd
 
@@ -52,3 +59,4 @@ pid/
 *.previous.*
 *.bak
 *.prev
+*before[-_]restore*
