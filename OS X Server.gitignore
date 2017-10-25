@@ -2,8 +2,7 @@
 ## This was designed and tested with OS X Server v4 (up to 4.0.3)
 
 # Databases and Caches
-/Alerts/alertData.db-shm
-/Alerts/alertData.db-wal
+/Alerts/alertData.db*
 /Backups
 /Caching/Data/
 /Calendar and Contacts/Data/Database.xpg/
