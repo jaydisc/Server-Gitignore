@@ -11,6 +11,7 @@
 /Configuration/services.mobileconfig
 /Firewall/Firewall.db*
 /Messages/Data/sqlite/jabberd2.db
+/Metrics/
 /ProfileManager/Data/
 /ServerDocs/Database.xpg/
 /Wiki/Database.xpg/
