@@ -3,6 +3,7 @@
 
 # Databases and Caches
 /Alerts/alertData.db*
+/Backups
 /Caching/Data/
 /Calendar and Contacts/Data/Database.xpg/
 /Calendar and Contacts/Data/memberships_cache
@@ -26,6 +27,7 @@
 /Mail/Data/scanner/
 /Mail/Data/spool/
 /Messages/Data/
+/ServerDocs/Data/
 /ServerDocs/Personal Folders.localized/
 /Wiki/FileData/
 
@@ -52,7 +54,7 @@ pid/
 
 # Previous
 /Web/Config/apache2/sites-previous-unusable-*
-*.previous
+*[.-]previous
 *.previous.*
 *.bak
 *.prev
