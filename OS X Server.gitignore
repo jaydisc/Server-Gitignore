@@ -49,6 +49,7 @@ pid/
 *.pid
 *.lock
 *.lock_file
+/Calendar and Contacts/Data/.MailCertificateAlert.timestamp
 /ProfileManager/Config/ruby-uuid
 /ProfileManager/Config/var/devicemgrd
 /ProfileManager/Config/var/dmrunnerd
