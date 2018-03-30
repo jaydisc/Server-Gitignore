@@ -6,13 +6,16 @@
 /Backups
 /Caching/Data/
 /Calendar and Contacts/Data/Database.xpg/
+/Calendar and Contacts/Data/locales/
 /Calendar and Contacts/Data/memberships_cache
+/Calendar and Contacts/Data/zoneinfo/
 /Configuration/services.mobileconfig
 /Firewall/Firewall.db*
 /Messages/Data/sqlite/jabberd2.db
 /Metrics/
 /ProfileManager/Data/
 /ServerDocs/Database.xpg/
+/Wiki/Config/defaultdata/
 /Wiki/Database.xpg/
 
 # User Data
