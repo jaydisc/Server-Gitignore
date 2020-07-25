@@ -8,7 +8,11 @@
 /Documentation/
 /Examples/
 *.pdf
-# /Admin/admin-server/help
+/Admin/admin-server/help/
+/Admin/admin-server/images/
+/Admin/admin-server/launch-page/
+/Admin/admin-server/VAADIN
+/Admin/admin-server/WEB-INF/lib/
 
 # Logs
 /Logs/
