@@ -1,33 +1,23 @@
 ## This is a .gitignore file for use with FileMaker Server, in its installation directory /Library/FileMaker Server
-## This was designed and tested with FileMaker Server v12 (up to 12.0.5)
+## This was designed and tested with FileMaker Server v18.0.4
 
-# Your Data
-/Data/
+# Misc
+.DS_Store
+node_modules
 
-# Irrelevant Content
-/Documentation/
-/Examples/
-*.pdf
-/Admin/admin-server/help/
-/Admin/admin-server/images/
-/Admin/admin-server/launch-page/
-/Admin/admin-server/VAADIN
-/Admin/admin-server/WEB-INF/lib/
-
-# Logs
-/Logs/
-*.log
-/HTTPServer/logs/
-
-# Temp Files
-*.pid
-/.oracle_jre_usage/*.timestamp
-/HTTPServer/start
-/HTTPServer/stop
 # Binaries
+/Admin/FAC
 /Database Server/
-*Uninstaller.app
+/Web Publishing/java/
+/Web Publishing/publishing-engine/
 
-# Other
-/Web Publishing/
-/node/
+# Data
+/Data/Backups/
+/Data/Caches/
+/Data/Databases/
+/Data/Restoration/
+/Data/Preferences/dbs_config.xml # Stores timestamps for every database
+
+#Logs
+/HTTPServer/logs
+/Logs/
