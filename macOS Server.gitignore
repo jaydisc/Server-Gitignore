@@ -11,6 +11,7 @@
 /Calendar and Contacts/Data/zoneinfo/
 /Configuration/services.mobileconfig
 /Firewall/Firewall.db*
+/Mail/Data/gldb/greylist.db
 /Messages/Data/sqlite/jabberd2.db
 /Metrics/
 /ProfileManager/Data/
